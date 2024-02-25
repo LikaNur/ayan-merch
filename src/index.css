@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-normal text-normal;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.hero-image {
+  animation: slideInFromRight 1s ease-in-out forwards;
+}
+
+@keyframes slideInFromBottom{
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hero-text {
+  animation: slideInFromBottom 1s ease forwards;
+}
