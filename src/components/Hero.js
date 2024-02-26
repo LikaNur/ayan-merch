@@ -5,25 +5,22 @@ import "../index.css";
 
 const Hero = () => {
   return (
-    // Hero section with background gradient and image
     <section className="bg-gradient-to-br from-[#E0F4FF] to-[#EFFFE0] h-[900px] bg-no-repeat bg-cover bg-center py-20 relative">
-      {/* Container for centering content horizontally */}
       <div className="container mx-auto flex justify-around h-full">
-        {/* Hero text content */}
         <div className="flex flex-col justify-center hero-text">
-          {/* Title and description */}
           <div className="font-semibold flex items-center uppercase">
-            <div className="w-10 h-[2px] bg-primary mr-3"></div>Welcome to Ayan Capital Merch Shop
+            <div className="w-10 h-[2px] bg-primary mr-3"></div>AYANCAPITAL
+            merch shop
           </div>
-          <h1 className="text-[35px] leading-[1.3] font-light py-4 mb-4 mr-10 md:text-[45px]">
-            Your Ultimate Online Shopping Destination!
+          <h1 className="text-[35px] leading-[1.2] font-semibold py-4 mb-4 mr-10 md:text-[45px]">
+            Where innovation meets inspiration
             <br />
-            <span className="font-semibold py-4">
-              Shop curated collections for the latest <br /> in fashion, decor,
-              and tech.
+            <span className="font-light text-[26px] py-4">
+              From statement-making t-shirts to functional backpacks, <br />{" "}
+              each item is a testament to the innovative spirit of{" "}
+              <span className="text-primary">ayancapital</span>
             </span>
           </h1>
-          {/* Link to discover more */}
           <Link
             className="self-start uppercase font-semibold cursor-pointer hover:text-primary"
             to={"/"}
@@ -31,7 +28,6 @@ const Hero = () => {
             Discover More
           </Link>
         </div>
-        {/* Hero image (visible only on large screens) */}
         <div className="hidden lg:block hero-image">
           <img className="py-20" src={HeroImg} alt="hero" />
         </div>

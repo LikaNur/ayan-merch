@@ -3,16 +3,10 @@ import React, { createContext, useState, useEffect } from "react";
 export const CartContext = createContext();
 
 const CartProvider = ({ children }) => {
-  // State for cart items
   const [cart, setCart] = useState([]);
-
-  // State for total item count in the cart
   const [itemAmount, setItemAmount] = useState(0);
-
-  // State for total price of items in the cart
   const [total, setTotal] = useState(0);
 
-  // Calculate total price when cart items change
   useEffect(() => {
     const total = cart.reduce((accumulator, currentItem) => {
       return accumulator + currentItem.price * currentItem.amount;
@@ -20,7 +14,6 @@ const CartProvider = ({ children }) => {
     setTotal(total);
   }, [cart]);
 
-  // Calculate total item count when cart items change
   useEffect(() => {
     const amount = cart.reduce((accumulator, currentItem) => {
       return accumulator + currentItem.amount;
@@ -28,7 +21,6 @@ const CartProvider = ({ children }) => {
     setItemAmount(amount);
   }, [cart]);
 
-  // Add item to cart
   const addToCart = (product, id) => {
     const newItem = { ...product, amount: 1 };
     const cartItem = cart.find((item) => item.id === id);
@@ -46,24 +38,20 @@ const CartProvider = ({ children }) => {
     }
   };
 
-  // Remove item from cart
   const removeFromCart = (id) => {
     const newCart = cart.filter((item) => item.id !== id);
     setCart(newCart);
   };
 
-  // Clear cart
   const clearCart = () => {
     setCart([]);
   };
 
-  // Increase item amount
   const increaseAmount = (id) => {
     const cartItem = cart.find((item) => item.id === id);
     addToCart(cartItem, id);
   };
 
-  // Decrease item amount
   const decreaseAmount = (id) => {
     const cartItem = cart.find((item) => item.id === id);
     if (cartItem) {
@@ -82,7 +70,6 @@ const CartProvider = ({ children }) => {
   };
 
   return (
-    // Provider component for CartContext
     <CartContext.Provider
       value={{
         cart,

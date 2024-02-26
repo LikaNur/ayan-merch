@@ -23,6 +23,7 @@ module.exports = {
         secondary: "#F5E6E0",
         normal: "#000000",
         default: "#F3F5F6",
+        base: "#C4C9CD",
         main: "#ECF0F3",
         footer: "#222222",
       },
