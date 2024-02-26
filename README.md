@@ -30,4 +30,11 @@ Welcome to the Ayancapital Merch Shop, your one-stop destination for exclusive A
 - Run `npm start`to start the application.
 - Open [ayancapital](http://localhost:3003/) in your browser to view the website.
 
+**Screenshots of the project**
+<img width="1710" alt="Screenshot 2024-02-26 at 07 09 11" src="https://github.com/LikaNur/ayan-merch/assets/123624510/d111f40a-7865-4425-a712-7c131e2f6ccc">
+<img width="1710" alt="Screenshot 2024-02-26 at 07 09 23" src="https://github.com/LikaNur/ayan-merch/assets/123624510/88cc3c57-f8cd-4ecb-b80f-cf8f37b82e4a">
+<img width="1691" alt="Screenshot 2024-02-26 at 07 09 35" src="https://github.com/LikaNur/ayan-merch/assets/123624510/bd3639f6-9f43-40e9-9a04-7a20a6848d62">
+<img width="1696" alt="Screenshot 2024-02-26 at 07 09 48" src="https://github.com/LikaNur/ayan-merch/assets/123624510/4b1e986a-6cdd-42d9-8683-88527f704dfe">
+<img width="1694" alt="Screenshot 2024-02-26 at 07 10 07" src="https://github.com/LikaNur/ayan-merch/assets/123624510/b9b8c48c-7f0e-4ce4-93f0-a8d142a9c768">
+
 
