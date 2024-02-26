@@ -1,6 +1,6 @@
 **ayancapital merch shop**
 
-Welcome to the Ayancapital Merch Shop, your one-stop destination for exclusive Ayancapital merchandise. Our e-commerce platform is crafted with React and Tailwind CSS, offering a responsive and user-friendly shopping experience. We utilize the Fake Store API for seamless product data retrieval, and our state management is efficiently handled using the Context API.
+Welcome to the Ayancapital Merch Shop, your one-stop destination for exclusive Ayancapital merchandise. Our e-commerce platform is crafted with React and Tailwind CSS, offering a responsive and user-friendly shopping experience. We utilize the Fake Store API for seamless product data retrieval, and our state management is efficiently handled using the Context API. 
 
 **Key Features**
 - Homepage Highlights: Explore our handpicked selection of Ayancapital merchandise on the homepage. Each product card displays an image, name, and price for effortless shopping.
