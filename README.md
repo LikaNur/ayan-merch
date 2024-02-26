@@ -24,5 +24,10 @@ Integrated React Router for smooth navigation.
 Emphasized a mobile-first workflow for optimal responsiveness.
 Tailored the UI with Tailwind CSS for a unique and modern design.
 
-**LocalHost**
-[ayancapital](http://localhost:3003/)
+**Installation and Setup**
+Clone the repository to your local machine.
+Navigate to the project directory and <code>run npm install</code> to install all dependencies.
+Run <code>npm start</code> to start the application.
+Open [ayancapital](http://localhost:3003/) in your browser to view the website.
+
+
