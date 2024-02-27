@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "//ayan-merch/static/css/main.4147db83.css",
-    "main.js": "//ayan-merch/static/js/main.2e167d8c.js",
-    "static/media/merch.png": "//ayan-merch/static/media/merch.0815794e96886b122eb1.png",
-    "static/media/footer_logo.svg": "//ayan-merch/static/media/footer_logo.1807cba564110ecf4f38737fa7ee567d.svg",
-    "static/media/logo.svg": "//ayan-merch/static/media/logo.24754ed073fa154261946a8816459cc5.svg",
-    "static/media/instagram.svg": "//ayan-merch/static/media/instagram.5eb7737ba08943e9f416bec003c324a6.svg",
-    "static/media/whatsapp.svg": "//ayan-merch/static/media/whatsapp.6f76b5fcb5636d67efc2e54017dbb271.svg",
-    "index.html": "//ayan-merch/index.html",
-    "static/media/facebook.svg": "//ayan-merch/static/media/facebook.c20001bf33002b548c311b9efb4692ba.svg",
-    "static/media/linkedin.svg": "//ayan-merch/static/media/linkedin.d932efcecc0c411ea62977ee73ccbc2a.svg",
-    "static/media/slack.svg": "//ayan-merch/static/media/slack.959e6189b8a8d07ee42908b4db83e038.svg",
-    "main.4147db83.css.map": "//ayan-merch/static/css/main.4147db83.css.map",
-    "main.2e167d8c.js.map": "//ayan-merch/static/js/main.2e167d8c.js.map"
+    "main.css": "/ayan-merch/static/css/main.4147db83.css",
+    "main.js": "/ayan-merch/static/js/main.b337f462.js",
+    "static/media/merch.png": "/ayan-merch/static/media/merch.0815794e96886b122eb1.png",
+    "static/media/footer_logo.svg": "/ayan-merch/static/media/footer_logo.1807cba564110ecf4f38737fa7ee567d.svg",
+    "static/media/logo.svg": "/ayan-merch/static/media/logo.24754ed073fa154261946a8816459cc5.svg",
+    "static/media/instagram.svg": "/ayan-merch/static/media/instagram.5eb7737ba08943e9f416bec003c324a6.svg",
+    "static/media/whatsapp.svg": "/ayan-merch/static/media/whatsapp.6f76b5fcb5636d67efc2e54017dbb271.svg",
+    "index.html": "/ayan-merch/index.html",
+    "static/media/facebook.svg": "/ayan-merch/static/media/facebook.c20001bf33002b548c311b9efb4692ba.svg",
+    "static/media/linkedin.svg": "/ayan-merch/static/media/linkedin.d932efcecc0c411ea62977ee73ccbc2a.svg",
+    "static/media/slack.svg": "/ayan-merch/static/media/slack.959e6189b8a8d07ee42908b4db83e038.svg",
+    "main.4147db83.css.map": "/ayan-merch/static/css/main.4147db83.css.map",
+    "main.b337f462.js.map": "/ayan-merch/static/js/main.b337f462.js.map"
   },
   "entrypoints": [
     "static/css/main.4147db83.css",
-    "static/js/main.2e167d8c.js"
+    "static/js/main.b337f462.js"
   ]
 }
